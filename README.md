@@ -1,27 +1,33 @@
-# SAC-TTS
-naan mudhalvan project TTS (language translation & autocompletion)
-Sentence Auto-Completion using LSTM 📝🚀
-This project implements a Sentence Auto-Completion model using a Long Short-Term Memory (LSTM) neural network. The model is trained on the Holmes.txt dataset from Kaggle to predict and complete sentences based on input text.
+# SAC-TTS Project: Sentence Auto-Completion and Text-to-Speech
 
-📌 Features
-✔️ Uses LSTM for sequence prediction
-✔️ Trained on Holmes.txt dataset (Sherlock Holmes stories)
-✔️ Implements tokenization, padding, and word embedding
-✔️ Generates sentence completions based on input text
-✔️ Implemented in Jupyter Notebook (.ipynb)
+This project implements **Sentence Auto-Completion** using **LSTM** (Long Short-Term Memory) neural networks, alongside **Language Translation** and **Text-to-Speech (TTS)** functionalities. The goal is to predict and complete sentences based on input text and translate between languages (e.g., Tamil and English). Additionally, the generated text is converted into speech using a TTS model.
 
-📂 Dataset
-The dataset used for training is Holmes.txt, available on Kaggle. You can download it from here:
-🔗 Holmes.txt Dataset on Kaggle
+## Features
 
-📜Requirements
-Python 3.x
-TensorFlow / Keras
-NumPy, Pandas
-NLTK / Tokenizer
-Jupyter Notebook
-📊 Model Overview
-Preprocessing: Tokenization, Cleaning, Padding
-Model: LSTM-based sequence prediction
-Loss Function: Categorical Crossentropy
-Optimizer: Adam
+- **Sentence Auto-Completion** using LSTM for sequence prediction.
+- **Language Translation** using an Encoder-Decoder model for translating between languages (e.g., Tamil and English).
+- **Text-to-Speech (TTS)** to convert text into audible speech.
+- Trained on **Holmes.txt** dataset (Sherlock Holmes stories) for auto-completion tasks.
+- Implemented in a Jupyter Notebook (.ipynb).
+
+## Dataset
+
+The dataset used for training the Sentence Auto-Completion model is the **Holmes.txt** dataset, available on Kaggle. You can download it from the following link:
+
+- [Holmes.txt Dataset on Kaggle](https://www.kaggle.com/datasets/arthurtok/holmes-text)
+
+## Requirements
+
+To run this project, make sure you have the following installed:
+
+- Python 3.x
+- TensorFlow/Keras
+- NumPy, Pandas
+- NLTK/Tokenizer
+- gTTS (Google Text-to-Speech)
+- Jupyter Notebook
+
+You can install the required libraries using pip:
+
+```bash
+pip install tensorflow numpy pandas nltk gtts
