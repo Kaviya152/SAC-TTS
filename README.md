@@ -19,34 +19,36 @@ The dataset used for training the Sentence Auto-Completion model is the **Holmes
 ## Sample Outputs
 
 ### 🔸 Sentence Auto-Completion Example
-![Sentence Completion Output](Screenshot 2025-05-13 094058.png)
+![Sentence Completion Output](https://github.com/Kaviya152/SAC-TTS/blob/main/Screenshot%202025-05-13%20094058.png)
 
 
 ### 🔸 Training  and Validation Accuracy 
-![Model Architecture](Screenshot 2025-05-13 083217.png)
+![Model Architecture](https://github.com/Kaviya152/SAC-TTS/blob/main/Screenshot%202025-05-13%20083217.png)
 
 ### 🔸 Text to Text Translation 
-![(ENG)TEXT TO TEXT](Screenshot 2025-05-13 100428.png)
-![OUTPUT HIGHLIGHTER](Screenshot 2025-05-13 100505.png)
+![(ENG)TEXT TO TEXT](https://github.com/Kaviya152/SAC-TTS/blob/main/Screenshot%202025-05-13%20100428.png)
+
+![OUTPUT HIGHLIGHTER](https://github.com/Kaviya152/SAC-TTS/blob/main/Screenshot%202025-05-13%20100505.png)
 
 
 ### 🔸 Text-to-Speech Audio Playback Interface
-![Open Audio](Screenshot 2025-05-13 100523.png)
+![Open Audio](https://github.com/Kaviya152/SAC-TTS/blob/main/Screenshot%202025-05-13%20100523.png)
 
 
 ### 🔸 Error Handlings
-![No Audio File](Screenshot 2025-05-13 094018.png)
-![Network Error](Screenshot 2025-05-13 094644.png)
-![](Screenshot 2025-05-13 094018.png)
-![](Screenshot 2025-05-13 094018.png)
-![](Screenshot 2025-05-13 094018.png)
+![No Audio File](https://github.com/Kaviya152/SAC-TTS/blob/main/Screenshot%202025-05-13%20094018.png)
+
+![Network Error](https://github.com/Kaviya152/SAC-TTS/blob/main/Screenshot%202025-05-13%20094644.png)
 
 
 ### 🔸 PLAY~tts [DESKTOP APP]
-![WELCOME TAB](Screenshot 2025-05-13 093948.png)
-![HOME TAB](Screenshot 2025-05-13 093935.png)
-![PLAY TAB]()
-![ABOUT TAB](Screenshot 2025-05-13 094002.png)
+![WELCOME TAB](https://github.com/Kaviya152/SAC-TTS/blob/main/Screenshot%202025-05-13%20093948.png)
+
+![HOME TAB](https://github.com/Kaviya152/SAC-TTS/blob/main/Screenshot%202025-05-13%20093935.png)
+
+![PLAY TAB](Screenshot 2025-05-13 100523.png)
+
+![ABOUT TAB](https://github.com/Kaviya152/SAC-TTS/blob/main/Screenshot%202025-05-13%20094002.png)
 
 
 ## Requirements
@@ -64,14 +66,3 @@ You can install the required libraries using pip:
 
 ```bash
 pip install tensorflow numpy pandas googletrans gtts mutagen matplotlib pydub pygame simpleaudio socket 
-
-
-
-
-
-
-
-
-
-
-
