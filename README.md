@@ -31,3 +31,27 @@ You can install the required libraries using pip:
 
 ```bash
 pip install tensorflow numpy pandas nltk gtts
+
+## Sample Outputs
+
+### 🔸 Sentence Auto-Completion Example
+![Sentence Completion Output](images/output1.png)
+
+### 🔸 Model Architecture and Accuracy metrics
+![Model Architecture](## Sample Outputs)
+
+### 🔸 Text-to-Speech Audio Playback Interface
+![Audio Output](images/audio_output.png)
+
+### 🔸 Error Handlings
+![Sentence Completion Output](images/output1.png)
+
+
+### 🔸 PLAY~tts [DESKTOP APP]
+![HOME TAB](images/audio_output.png)
+![PLAY TAB](images/audio_output.png)
+![ABOUT TAB](images/audio_output.png)
+
+
+
+
