@@ -16,6 +16,39 @@ The dataset used for training the Sentence Auto-Completion model is the **Holmes
 
 - [Holmes.txt Dataset on Kaggle](https://www.kaggle.com/datasets/arthurtok/holmes-text)
 
+## Sample Outputs
+
+### 🔸 Sentence Auto-Completion Example
+![Sentence Completion Output](Screenshot 2025-05-13 094058.png)
+
+
+### 🔸 Training  and Validation Accuracy 
+![Model Architecture](Screenshot 2025-05-13 083217.png)
+
+### 🔸 Text to Text Translation 
+![(ENG)TEXT TO TEXT](Screenshot 2025-05-13 100428.png)
+![OUTPUT HIGHLIGHTER](Screenshot 2025-05-13 100505.png)
+
+
+### 🔸 Text-to-Speech Audio Playback Interface
+![Open Audio](Screenshot 2025-05-13 100523.png)
+
+
+### 🔸 Error Handlings
+![No Audio File](Screenshot 2025-05-13 094018.png)
+![Network Error](Screenshot 2025-05-13 094644.png)
+![](Screenshot 2025-05-13 094018.png)
+![](Screenshot 2025-05-13 094018.png)
+![](Screenshot 2025-05-13 094018.png)
+
+
+### 🔸 PLAY~tts [DESKTOP APP]
+![WELCOME TAB](Screenshot 2025-05-13 093948.png)
+![HOME TAB](Screenshot 2025-05-13 093935.png)
+![PLAY TAB]()
+![ABOUT TAB](Screenshot 2025-05-13 094002.png)
+
+
 ## Requirements
 
 To run this project, make sure you have the following installed:
@@ -30,27 +63,14 @@ To run this project, make sure you have the following installed:
 You can install the required libraries using pip:
 
 ```bash
-pip install tensorflow numpy pandas nltk gtts
-
-## Sample Outputs
-
-### 🔸 Sentence Auto-Completion Example
-![Sentence Completion Output](images/output1.png)
-
-### 🔸 Model Architecture and Accuracy metrics
-![Model Architecture](## Sample Outputs)
-
-### 🔸 Text-to-Speech Audio Playback Interface
-![Audio Output](images/audio_output.png)
-
-### 🔸 Error Handlings
-![Sentence Completion Output](images/output1.png)
+pip install tensorflow numpy pandas googletrans gtts mutagen matplotlib pydub pygame simpleaudio socket 
 
 
-### 🔸 PLAY~tts [DESKTOP APP]
-![HOME TAB](images/audio_output.png)
-![PLAY TAB](images/audio_output.png)
-![ABOUT TAB](images/audio_output.png)
+
+
+
+
+
 
 
 
