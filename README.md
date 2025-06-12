@@ -1,6 +1,4 @@
 # The English To Multilingual TTS with AI Autocomplete
-![image](https://github.com/user-attachments/assets/cb624acf-83e5-4050-b490-4a4d74f88b6d)
-
 
 This project implements **Sentence Auto-Completion** using **LSTM** (Long Short-Term Memory) neural networks, alongside **Language Translation** and **Text-to-Speech (TTS)** functionalities. The goal is to predict and complete sentences based on input text and translate between languages (e.g., Tamil and English). Additionally, the generated text is converted into speech using a TTS model.
 
